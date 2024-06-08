@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" rel="stylesheet" class="ts-font">
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W0 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2527&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W1 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2528&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W2 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2529&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W3 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2530&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W4 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2531&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W5 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2532&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W6 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2533&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W7 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2534&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        @font-face {
+            font-family: 'Hiragino Kaku Gothic W8 JIS2004';
+            font-weight: Bold;
+            src: url(//wf.typesquare.com/3/tsad/dist/ja/ts?condition=4d1efa0941ffe65c7c17d219b21585a3&onetime_condition=&eid=qP9CSvpiTpM%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=www.morisawa.co.jp%2F&fonts[id]=2535&fonts[str]=MOOBj%2BOBl%2BOBmeOBr%2BOCi%2BOCuOOCv%2BODh%2BODq%2BWMluWtl%2BaWh%2Be%2BjumAsg%3D%3D);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .w_0 { font-family: "Hiragino Kaku Gothic W0 JIS2004";}
+        .w_1 { font-family: "Hiragino Kaku Gothic W1 JIS2004";}
+        .w_2 { font-family: "Hiragino Kaku Gothic W2 JIS2004";}
+        .w_3 { font-family: "Hiragino Kaku Gothic W3 JIS2004";}
+        .w_4 { font-family: "Hiragino Kaku Gothic W4 JIS2004";}
+        .w_5 { font-family: "Hiragino Kaku Gothic W5 JIS2004";}
+        .w_6 { font-family: "Hiragino Kaku Gothic W6 JIS2004";}
+        .w_7 { font-family: "Hiragino Kaku Gothic W7 JIS2004";}
+        .w_8 { font-family: "Hiragino Kaku Gothic W8 JIS2004";}
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="w_0">W0 デジタル文字は美しく進化する</h1>
+        <h1 class="w_1">W1 デジタル文字は美しく進化する</h1>
+        <h1 class="w_2">W2 デジタル文字は美しく進化する</h1>
+        <h1 class="w_3">W3 デジタル文字は美しく進化する</h1>
+        <h1 class="w_4">W4 デジタル文字は美しく進化する</h1>
+        <h1 class="w_5">W5 デジタル文字は美しく進化する</h1>
+        <h1 class="w_6">W6 デジタル文字は美しく進化する</h1>
+        <h1 class="w_7">W7 デジタル文字は美しく進化する</h1>
+        <h1 class="w_8">W8 デジタル文字は美しく進化する</h1>
+    </div>
+</body>
+
+</html>
